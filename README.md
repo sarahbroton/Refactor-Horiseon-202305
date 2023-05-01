@@ -2,9 +2,9 @@
 
 ## A classwork practice for refactoring a website. 
 
--Learning to test HTML, CSS, VS Code, Git Bash, and Git Hub
--Practice creating a repo in GitHub
--Practice commit, push, and pull in GitHub
+- Learning to test HTML, CSS, VS Code, Git Bash, and Git Hub
+- Practice creating a repo in GitHub
+- Practice commit, push, and pull in GitHub
 
 ## Installation
 
@@ -42,9 +42,9 @@ This includes:
         -In future lessons, student will learn how to make elements "responsive" so that the web application is optimized for any screen size.  For this project, this is not applicable
 
 ## Credits
-    * Refactor complied by SBroton.
-    * Last updated May 2023
-    * With the assistance from Tutors, TA's, AskBSC, and w3schools.com
+- Refactor complied by SBroton
+- Last updated May 2023
+- With the assistance from Tutors, TA's, AskBSC, and w3schools.com
 
 ## License
-    * Please refer to the LICENSE in the repo. 
+- Please refer to the LICENSE in the repo
