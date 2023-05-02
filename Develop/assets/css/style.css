@@ -2,12 +2,14 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    
+       
 }
 
 body {
     background-color: #d9dcd6;
 }
+
+/**************HEADER AND NAV BAR***************/
 
 /*Horiseon header and nav bar*/
 .header {
@@ -37,28 +39,16 @@ body {
     font-size: 20px;
     }
 
-/*3 nav options, top right **NO space above** */
-.header nav ul {
-    list-style-type: none;
- }
-
 /*3 nav options: individual/separate, top three separate*/
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
  }
 
-/*3 nav options: separate -although same as above?? Could this be part of the .header nav*/
+/*3 nav options: separate -removes underline, applies color*/
 a {
     color: #ffffff;
     text-decoration: none;
-}
-
-/***********MAIN + ASIDE BOXES***********/
-
-/*text main and aside boxes, each paragraph */
-p {
-    font-size: 16px;
 }
 
 /***************MAIN PICTURE***************/
@@ -73,35 +63,47 @@ p {
     background-position: center;
 }
 
-/*************OTHER**************/
-/*************OTHER**************/
-/*************OTHER**************/
+/***********MAIN + ASIDE BOXES***********/
 
-/*Picture - 2 left float pics for SEO & SMM*/
+/*text main and aside boxes, applies to each paragraph */
+p {
+    font-size: 16px;
+}
+
+/************MAIN BOXES******************/
+
+/*MAIN - small picture - 2 left float pics for SEO & SMM*/
 .float-left { 
     float: left;
     margin-right: 25px;
 }
 
-/*Picture - 1 right float pics for ORM*/
+/*MAIN - small picture - 1 right float pics for ORM*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
-/*MAIN Contents box - outline all 3 boxes, together, SEO& ORM & SMM*/
+/*MAIN Contents box - boarder all 3 boxes, together, SEO & ORM & SMM*/
 .content { 
     width: 75%;
     display: inline-block;
     margin-left: 20px; 
 }
 
-/****************ASIDE***********************/
-/****************ASIDE***********************/
-/****************ASIDE***********************/
+/*MAIN Contents box - three separate/each boarder*/
+#search-engine-optimization, #online-reputation-management, #social-media-marketing { 
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
 /****************ASIDE***********************/
 
-/*ASIDE Benefits box - outline*/
+/*ASIDE Benefits box - boarder - all three sections*/
 .benefits { 
     margin-right: 20px;
     padding: 20px;
@@ -113,127 +115,35 @@ p {
     background-color: #2589bd;
 }
 
-/*ASIDE Benefits box - lead generation title, icon, text*/
-.benefit-lead { 
+/*ASIDE Benefits box - outline each section grouped with title, icon, text*/
+.benefit-lead, .benefit-brand, .benefit-cost { 
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/*ASIDE Benefit box - Brand awareness title, icon, text*/
-.benefit-brand { 
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/*ASIDE Benefits box - Cost Magagement title, icon, text*/
-.benefit-cost { 
-    margin-bottom: 32px;
-    color: #ffffff;  
-}
-
-/*ASIDE Benefits box - Lead Gen title*/
-.benefit-lead h3 { 
+/*ASIDE Benefits box - TITLES*/
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 { 
     margin-bottom: 10px;
     text-align: center;
 }
 
-/*ASIDE Benefits box - Brand Awareness title*/
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/*ASIDE Benefits box - Cost Management title*/
-.benefit-cost h3 { 
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/*ASIDE Benefits box - Lead Gen ICON*/
-.benefit-lead img { 
+/*ASIDE Benefits box - ICONS*/
+.benefit-lead img, .benefit-brand img, .benefit-cost img { 
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/*ASIDE Benefits box - Brand Aware ICON*/
-.benefit-brand img { 
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/*ASIDE Benefits Box - Cost Management ICON*/
-.benefit-cost img { 
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/****************MAIN***********************/
-/****************MAIN***********************/
-/****************MAIN***********************/
-
-/*MAIN Contents box - indivdiual SEO only box*/
-#search-engine-optimization { 
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/*MAIN Contents box - indivdual ORM only box*/
-#online-reputation-management { 
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/*MAIN Contents box - indivdiual SMM only box*/
-#social-media-marketing {  
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
- /*MAIN Contents box - SEO image*/
-.search-engine-optimization img { 
+/*****************************start here****************************/
+ /*MAIN Contents box - each image, separately*/
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img { 
     max-height: 200px;
 }
  
- /*MAIN Contents box - ORM image*/
-.online-reputation-management img { 
-    max-height: 200px;
-}
-
- /*MAIN Contents box - SMM image*/
-.social-media-marketing img { 
-    max-height: 200px;
-}
-
  /*MAIN Contents box - SEO title*/
-.search-engine-optimization h2 { 
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 { 
     margin-bottom: 20px;
     font-size: 36px; 
-}
- 
-/*MAIN Contents box - ORM title*/
-.online-reputation-management h2 { 
-    margin-bottom: 20px;
-    font-size: 36px;
-}
- /*MAIN Contents box - SMM title*/
-.social-media-marketing h2 { 
-    margin-bottom: 20px;
-    font-size: 36px;  
 }
 
 /*****************FOOTER****************************/
