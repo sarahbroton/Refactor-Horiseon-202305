@@ -10,7 +10,6 @@ body {
 }
 
 /**************HEADER AND NAV BAR***************/
-
 /*Horiseon header and nav bar*/
 .header {
     padding: 20px;
@@ -52,7 +51,6 @@ a {
 }
 
 /***************MAIN PICTURE***************/
-
 /*Picture - top under nav bar - large*/
 .hero {
     height: 800px;
@@ -64,14 +62,12 @@ a {
 }
 
 /***********MAIN + ASIDE BOXES***********/
-
 /*text main and aside boxes, applies to each paragraph */
 p {
     font-size: 16px;
 }
 
 /************MAIN BOXES******************/
-
 /*MAIN - small picture - 2 left float pics for SEO & SMM*/
 .float-left { 
     float: left;
@@ -101,8 +97,18 @@ p {
     color: #ffffff;
 }
 
-/****************ASIDE***********************/
+/*MAIN Contents box - each image, separately*/
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img { 
+    max-height: 200px;
+}
+ 
+ /*MAIN Contents box - each title, separately*/
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 { 
+    margin-bottom: 20px;
+    font-size: 36px; 
+}
 
+/****************ASIDE***********************/
 /*ASIDE Benefits box - boarder - all three sections*/
 .benefits { 
     margin-right: 20px;
@@ -115,7 +121,7 @@ p {
     background-color: #2589bd;
 }
 
-/*ASIDE Benefits box - outline each section grouped with title, icon, text*/
+/*ASIDE Benefits box - each section grouped with title, icon, text*/
 .benefit-lead, .benefit-brand, .benefit-cost { 
     margin-bottom: 32px;
     color: #ffffff;
@@ -132,18 +138,6 @@ p {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-/*****************************start here****************************/
- /*MAIN Contents box - each image, separately*/
-.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img { 
-    max-height: 200px;
-}
- 
- /*MAIN Contents box - SEO title*/
-.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 { 
-    margin-bottom: 20px;
-    font-size: 36px; 
 }
 
 /*****************FOOTER****************************/
