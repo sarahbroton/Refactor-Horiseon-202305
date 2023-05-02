@@ -77,6 +77,7 @@ This includes:
 - Refactor complied by SBroton
 - Last updated May 2023
 - With the assistance from Tutors, TA's, AskBSC, and w3schools.com
+- Other sources may apply, see GitHub "Refactor-Horiseon-202305" under resolved issues
 
 ## License
-- Please refer to the LICENSE in the repo
+- This project is licensed under the terms of the MIT license found in GitHub.

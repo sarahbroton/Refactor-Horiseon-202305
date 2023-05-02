@@ -38,7 +38,7 @@ body {
     font-size: 20px;
     }
 
-/*3 nav options: individual/separate, top three separate*/
+/*3 nav options: top three separate/indivdiual*/
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -61,13 +61,13 @@ a {
     background-position: center;
 }
 
-/***********MAIN + ASIDE BOXES***********/
+/***********MAIN + ASIDE CONTENT***********/
 /*text main and aside boxes, applies to each paragraph */
 p {
     font-size: 16px;
 }
 
-/************MAIN BOXES******************/
+/************MAIN CONTENT******************/
 /*MAIN - small picture - 2 left float pics for SEO & SMM*/
 .float-left { 
     float: left;
@@ -108,7 +108,7 @@ p {
     font-size: 36px; 
 }
 
-/****************ASIDE***********************/
+/****************ASIDE CONTENT***********************/
 /*ASIDE Benefits box - boarder - all three sections*/
 .benefits { 
     margin-right: 20px;
