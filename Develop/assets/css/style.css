@@ -45,7 +45,7 @@ body {
  }
 
 /*3 nav options: separate -removes underline, applies color*/
-a {
+.header nav ul li a {
     color: #ffffff;
     text-decoration: none;
 }

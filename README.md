@@ -80,4 +80,4 @@ This includes:
 - Other sources may apply, see GitHub "Refactor-Horiseon-202305" under resolved issues
 
 ## License
-- This project is licensed under the terms of the MIT license found in GitHub.
+- This project is licensed under the terms as the MIT license found in GitHub.
