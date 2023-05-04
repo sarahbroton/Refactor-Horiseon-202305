@@ -57,7 +57,7 @@ This includes:
     2. Deployment: 32%
         -Application deployed at live URL
         -Application loads with no errors
-        -Application GitHub URL submitted
+        -Application GitHub URL submitted (using Gitlab)
         -GitHub repository that contains application code
 
     4. Application Quality: 15%
@@ -81,3 +81,10 @@ This includes:
 
 ## License
 - This project is licensed under the terms as the MIT license found in GitHub.
+
+## Mock-up (Screenshot)
+- The following image shows the web application's appearance and functionality. 
+
+https://github.com/sarahbroton/Refactor-Horiseon-202305/wiki/Horiseon-Refactor-webpage-image
+
+## Link
