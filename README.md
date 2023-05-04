@@ -85,6 +85,6 @@ This includes:
 ## Mock-up (Screenshot)
 - The following image shows the web application's appearance and functionality. 
 
-https://github.com/sarahbroton/Refactor-Horiseon-202305/wiki/Horiseon-Refactor-webpage-image
+https://user-images.githubusercontent.com/130716239/236084885-8b90b2b6-69f6-4417-8e29-d8145602d6f7.png
 
 ## Link
